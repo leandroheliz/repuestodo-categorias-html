@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <title>Repuestodo - Frequently Asked Questions (FAQ) </title>
+
+<!-- 
+
+  En el siguiente Script adjuntamos un ejemplo de la estructura de datos en FAQs según las directrices de Google. 
+  La misma se compone del tipo Question (pregunta )y Answer (respuesta). Se debe duplicar la estructura dependiendo de la cantidad de preguntas designadas para cada categoría.
+
+    Referencia: https://developers.google.com/search/docs/appearance/structured-data/faqpage?hl=es-419 
+
+-->
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "¿Qué es la transmisión de un auto?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<p>Es el sistema encargado de llevar el movimiento a las ruedas del vehículo, transmitiendo la potencia y fuerza que genera el motor. De esta manera logra que el auto se mueva o desplace.</p>"
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Qué elementos componen la transmisión del auto?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<p>Los elementos que componen el sistema de transmisión de un vehículo son: el embrague, caja de cambio, diferencial, árbol de transmisión y palieres.</p>"
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Qué tipos de sistema de transmisión para el auto existen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<p>Podemos encontrarnos con el sistema de transmisión manual, donde el conductor modifica la relación de transmisión por medio de una palanca de cambios y el embrague.
+            Por otro lado tenemos el sistema de transmisión automático. Aquí no existe el pedal de embrague y los cambios de marcha se realizan por sí solos.</p>"
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Qué repuestos necesito para reparar la transmisión manual de un auto?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<p>Los repuestos más comunes que se necesitan para reparar la transmisión manual de un carro suelen ser: piola selectora, rodamientos, ejes, retenes, soporte para caja de cambios, piñones de caja, entre otros.</p>"
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Qué repuestos necesito para reparar la transmisión o caja automática de un auto?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text":"<p>Para reparar o realizar el mantenimiento a una caja automática puedes necesitar: la carcasa de transmisión, correas, retenes y líquidos o aceite de caja de cambios automática.</p>"}
+        }]
+    }
+    </script>
+  </head>
+<body>
+
+</body>
+</html>
